@@ -1,49 +1,40 @@
-# Midterm Hackathon
+# LiveTube
+
+ ![logo](https://github.com/Lu-Pereira/SAP005-midterm-hackthon/blob/main/src/img/readme-logo.png?raw=true)
 
 ## Índice
 
-* [Prefácio](#prefácio)
-* [Resumo do projeto](#resumo-do-projeto)
-* [Considerações gerais](#considerações-gerais)
-* [Objetivos de aprendizagem](#objetivos-de-aprendizagem)
-* [Exemplo de projetos](#examplo-de-projetos)
+* [Sobre](#sobre)
+* [Usuários](#usuários)
+* [Problema a ser solucionado](#problema-a-ser-solucionado)
+* [Solução](#solução)
+* [Persona](#persona)
 * [APIs](#apis)
 * [Entrega](#entrega)
 * [Dicas](#dicas)
 
 ---
 
-## Prefácio
+## Sobre
 
-Com o surgimento de plataformas entreterimento por streaming como Netflix, 
-Amazon Prime Video e Disney +, assistir filmes de onde estiver, comendo o que quiser
-(sem ter que pagar o preço exorbitante da pipoca), parando o filme se for preciso, tendo acesso a
-uma quantidade gigante de files, etc. Mudou a experiêcia de usuário e modificou o mercado de filmes
-a um nível global.
+A aplicação foi criada no ano de 2021 com o intuito de facilitar a vida dos usuários de entretenimento, especificamente aqueles que consomem conteúdos como Transmissões ao Vivo. Nossa aplicação separa os eventos por data, tornando as pesquisas mais ágeis e eficazes. 
 
-![Pelis](https://i.giphy.com/media/3o6Ztl7RvfwCp9mqhW/source.gif)
 
-## Resumo do projeto
+## Usuários
+O público-alvo da aplicação são pessoas que assistem Lives.
 
-Esse projeto terá um forma de Hackathon, no qual vocês terão que criar
-um produto sobre entreterimento utilizando APIs. Esse produto será criado 
-pelo squad durante os dias de Design Sprint e o desenvolvimento do dele
-deve ser feito duranto os dois dias de Hackathon.
+## Problema a ser solucionado:
+Os usuários encontram dificuldade ao buscarem informações das lives de seus artistas favoritos, uma vez que essas informações não se encontram concentradas em uma plataforma única e, dessa forma, acabam tendo que realizar buscas em diversas fontes.
 
-## Considerações gerais
+## Solução
 
-- Esse projeto deve ser feito em squad
-- Utilizar uma API
-- Tempo para terminar o produto: 2 dias
+Reunir, em um só lugar, todas as informações de Lives de irão ocorrer e possibilitar ao usuário realizar buscas por nome de artista e data das transmissões ao vivo.
 
-## Objetivos de aprendizagem
+## Persona
 
-- Enfrentar um desafio de curta duração que coloque em prático tudo 
-  o foi aprendido até agora
-- Continuar desenvolvendo as suas habilidades de trabalho em equipe. Quanto
-  mais pessoas em uma equipe de trabalho, mais complexidade para: chegar
-  em um consenso, separar as tarefas, seguir um fluxo de trabalho, etc
-- [Requisições assíncronas - Fetch API](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API)
+Com base em pesquisas realizadas por meio de formulários, conseguimos traçar o perfil de nosso usuário. Dessa forma, temos como persona:
+
+![persona](https://github.com/Lu-Pereira/SAP005-midterm-hackthon/blob/main/src/img/persona-readme%20(1).jpg?raw=true)
 
 ## Exemplo de projetos
 
