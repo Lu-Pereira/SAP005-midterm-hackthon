@@ -1,80 +1,61 @@
-# Midterm Hackathon
+# LiveTube
+
+ ![logo](https://github.com/Lu-Pereira/SAP005-midterm-hackthon/blob/main/src/img/readme-logo.png?raw=true)
 
 ## Índice
 
-* [Prefácio](#prefácio)
-* [Resumo do projeto](#resumo-do-projeto)
-* [Considerações gerais](#considerações-gerais)
-* [Objetivos de aprendizagem](#objetivos-de-aprendizagem)
-* [Exemplo de projetos](#examplo-de-projetos)
-* [APIs](#apis)
-* [Entrega](#entrega)
-* [Dicas](#dicas)
+* [Sobre](#sobre)
+* [Usuários](#usuários)
+* [Problema a ser solucionado](#problema-a-ser-solucionado)
+* [Solução](#solução)
+* [Persona](#persona)
+* [Histórias de Usuário](#história-de-usuário)
+* [Autoras](#autoras)
+
 
 ---
 
-## Prefácio
+## Sobre
 
-Com o surgimento de plataformas entreterimento por streaming como Netflix, 
-Amazon Prime Video e Disney +, assistir filmes de onde estiver, comendo o que quiser
-(sem ter que pagar o preço exorbitante da pipoca), parando o filme se for preciso, tendo acesso a
-uma quantidade gigante de files, etc. Mudou a experiêcia de usuário e modificou o mercado de filmes
-a um nível global.
-
-![Pelis](https://i.giphy.com/media/3o6Ztl7RvfwCp9mqhW/source.gif)
-
-## Resumo do projeto
-
-Esse projeto terá um forma de Hackathon, no qual vocês terão que criar
-um produto sobre entreterimento utilizando APIs. Esse produto será criado 
-pelo squad durante os dias de Design Sprint e o desenvolvimento do dele
-deve ser feito duranto os dois dias de Hackathon.
-
-## Considerações gerais
-
-- Esse projeto deve ser feito em squad
-- Utilizar uma API
-- Tempo para terminar o produto: 2 dias
-
-## Objetivos de aprendizagem
-
-- Enfrentar um desafio de curta duração que coloque em prático tudo 
-  o foi aprendido até agora
-- Continuar desenvolvendo as suas habilidades de trabalho em equipe. Quanto
-  mais pessoas em uma equipe de trabalho, mais complexidade para: chegar
-  em um consenso, separar as tarefas, seguir um fluxo de trabalho, etc
-- [Requisições assíncronas - Fetch API](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API)
-
-## Exemplo de projetos
-
-- Um grupo de fãs de Star Wars que querem ver os dados de todos os filmes da série
-- Um vídeo Pinterest youtube, onde os usuários "pinean" vídeos
-- Um mapa com os eventos que estão acontecendo perto de você
-
-## APIs
-
-- [Open Movies Database](http://www.omdbapi.com/)
-- [Spotify](https://developer.spotify.com/documentation/web-api/)
-- [Here Maps](https://developer.here.com/)
-- [Star Wars](https://swapi.dev/)
-- [You Tube](https://developers.google.com/youtube/v3)
-- [ESPN](http://www.espn.com/apis/devcenter/docs/)
-- [Mercado Livre](https://developers.mercadolivre.com.br/pt_br/api-docs-pt-br)
-
-Essas APIs são apenas exemplos, você pode utilizar qualquer outra que fizer sentido
-para o projeto. 
-[Aqui (lista 1)](https://apilist.fun/) e [aqui (lista 2)](https://github.com/public-apis/public-apis) você irá encontrar várias APIs públicas.
+A aplicação foi criada no ano de 2021 com o intuito de facilitar a vida dos usuários de entretenimento, especificamente aqueles que consomem conteúdos como Transmissões ao Vivo. Nossa aplicação separa os eventos por data, tornando as pesquisas mais ágeis e eficazes. 
 
 
-## Entrega
+## Usuários
+O público-alvo da aplicação são pessoas que assistem Lives.
 
-- Repositório no Github
-- URL pública com o deploy do projeto
+## Problema a ser solucionado:
+Os usuários encontram dificuldade ao buscarem informações das lives de seus artistas favoritos, uma vez que essas informações não se encontram concentradas em uma plataforma única e, dessa forma, acabam tendo que realizar buscas em diversas fontes.
 
-## Dicas
+## Solução
 
-- Organizem o tempo e prestem atenção no timebox
-- Priorizem as tarefas por feature e se organizem, pensem no MVP
-- Testem os deploys com antecedência
-- Implementem coisas pequenas
+Reunir, em um só lugar, todas as informações de Lives de irão ocorrer e possibilitar ao usuário realizar buscas por nome de artista e data das transmissões ao vivo.
 
+## Persona
+
+Com base em pesquisas realizadas por meio de formulários, conseguimos traçar o perfil de nosso usuário. Dessa forma, temos como persona:
+
+![persona](https://github.com/Lu-Pereira/SAP005-midterm-hackthon/blob/main/src/img/persona-readme%20(1).jpg?raw=true)
+
+## Histórias de Usuário
+
+“Eu, como espectadora de transmissões ao vivo, gostaria de uma aplicação que reunisse, em um só lugar, informações como dia e horário das lives para conseguir me programar melhor e não perder as apresentações dos meus artistas favoritos.”
+
+“Eu, como espectadora de transmissões ao vivo, gostaria de receber lembretes das minhas lives”
+
+“Eu, como espectadora de transmissões ao vivo, gostaria de ter acesso a um catálogo prático e completo de lives que irão ocorrer.” 
+
+“Eu, como espectadora de transmissões ao vivo, gostaria de poder realizar buscas das lives de meus artistas favoritos.” 
+
+“Eu, como espectadora de transmissões ao vivo, gostaria de poder compartilhar determinadas lives com meus amigos.”
+
+“Eu, como espectadora de transmissões ao vivo, gostaria de ter acesso a uma plataforma que disponibilizasse todas essas funcionalidades de forma intuitiva, por meio de ícones, disposição de conteúdos na página que não sejam “aninhados” e cores que me remetem ao Youtube ”
+
+## Autoras
+
+Ana Freitas | [GitHub - Ana](https://github.com/anafreitas-br)
+Dunia Ghazzaoui | [GitHub - Dunia](https://github.com/dunia07)
+Karina Santos | [GitHub - Karina](https://github.com/karinaFs)
+Luciana Pereira | [GitHub - Luciana](https://github.com/Lu-Pereira)
+Mayara Oliveira | [GitHub - Mayara](https://github.com/apretamayara)
+Sara Silva | [GitHub - Sara](https://github.com/silvassara)
+Thaís Alencar| [GitHub - Thaís](https://github.com/alencartha) 
