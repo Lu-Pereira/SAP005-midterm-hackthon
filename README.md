@@ -52,10 +52,10 @@ Com base em pesquisas realizadas por meio de formulários, conseguimos traçar o
 
 ## Autoras
 
-[Ana Freitas](https://github.com/anafreitas-br)
-[Dunia Ghazzaoui](https://github.com/dunia07)
-[Karina Santos](https://github.com/karinaFS)
-[Luciana Pereira](https://github.com/Lu-Pereira)
-[Mayara Oliveira](https://github.com/apretamayara)
-[Sara Silva](https://github.com/silvassara)
+[Ana Freitas](https://github.com/anafreitas-br),
+[Dunia Ghazzaoui](https://github.com/dunia07),
+[Karina Santos](https://github.com/karinaFS),
+[Luciana Pereira](https://github.com/Lu-Pereira),
+[Mayara Oliveira](https://github.com/apretamayara),
+[Sara Silva](https://github.com/silvassara) e
 [Thaís Alencar](https://github.com/alencartha) 
