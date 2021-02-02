@@ -9,9 +9,9 @@
 * [Problema a ser solucionado](#problema-a-ser-solucionado)
 * [Solução](#solução)
 * [Persona](#persona)
-* [APIs](#apis)
-* [Entrega](#entrega)
-* [Dicas](#dicas)
+* [Histórias de Usuário](#história-de-usuário)
+* [Autoras](#autoras)
+
 
 ---
 
@@ -36,36 +36,26 @@ Com base em pesquisas realizadas por meio de formulários, conseguimos traçar o
 
 ![persona](https://github.com/Lu-Pereira/SAP005-midterm-hackthon/blob/main/src/img/persona-readme%20(1).jpg?raw=true)
 
-## Exemplo de projetos
+## Histórias de Usuário
 
-- Um grupo de fãs de Star Wars que querem ver os dados de todos os filmes da série
-- Um vídeo Pinterest youtube, onde os usuários "pinean" vídeos
-- Um mapa com os eventos que estão acontecendo perto de você
+“Eu, como espectadora de transmissões ao vivo, gostaria de uma aplicação que reunisse, em um só lugar, informações como dia e horário das lives para conseguir me programar melhor e não perder as apresentações dos meus artistas favoritos.”
 
-## APIs
+“Eu, como espectadora de transmissões ao vivo, gostaria de receber lembretes das minhas lives”
 
-- [Open Movies Database](http://www.omdbapi.com/)
-- [Spotify](https://developer.spotify.com/documentation/web-api/)
-- [Here Maps](https://developer.here.com/)
-- [Star Wars](https://swapi.dev/)
-- [You Tube](https://developers.google.com/youtube/v3)
-- [ESPN](http://www.espn.com/apis/devcenter/docs/)
-- [Mercado Livre](https://developers.mercadolivre.com.br/pt_br/api-docs-pt-br)
+“Eu, como espectadora de transmissões ao vivo, gostaria de ter acesso a um catálogo prático e completo de lives que irão ocorrer.” 
 
-Essas APIs são apenas exemplos, você pode utilizar qualquer outra que fizer sentido
-para o projeto. 
-[Aqui (lista 1)](https://apilist.fun/) e [aqui (lista 2)](https://github.com/public-apis/public-apis) você irá encontrar várias APIs públicas.
+“Eu, como espectadora de transmissões ao vivo, gostaria de poder realizar buscas das lives de meus artistas favoritos.” 
 
+“Eu, como espectadora de transmissões ao vivo, gostaria de poder compartilhar determinadas lives com meus amigos.”
 
-## Entrega
+“Eu, como espectadora de transmissões ao vivo, gostaria de ter acesso a uma plataforma que disponibilizasse todas essas funcionalidades de forma intuitiva, por meio de ícones, disposição de conteúdos na página que não sejam “aninhados” e cores que me remetem ao Youtube ”
 
-- Repositório no Github
-- URL pública com o deploy do projeto
+## Autoras
 
-## Dicas
-
-- Organizem o tempo e prestem atenção no timebox
-- Priorizem as tarefas por feature e se organizem, pensem no MVP
-- Testem os deploys com antecedência
-- Implementem coisas pequenas
-
+Ana Freitas | [GitHub - Ana](https://github.com/anafreitas-br)
+Dunia Ghazzaoui | [GitHub - Dunia](https://github.com/dunia07)
+Karina Santos | [GitHub - Karina](https://github.com/karinaFs)
+Luciana Pereira | [GitHub - Luciana](https://github.com/Lu-Pereira)
+Mayara Oliveira | [GitHub - Mayara](https://github.com/apretamayara)
+Sara Silva | [GitHub - Sara](https://github.com/silvassara)
+Thaís Alencar| [GitHub - Thaís](https://github.com/alencartha) 
