@@ -23,7 +23,7 @@ A aplicação foi criada no ano de 2021 com o intuito de facilitar a vida dos us
 ## Usuários
 O público-alvo da aplicação são pessoas que assistem Lives.
 
-## Problema a ser solucionado:
+## Problema a ser solucionado
 Os usuários encontram dificuldade ao buscarem informações das lives de seus artistas favoritos, uma vez que essas informações não se encontram concentradas em uma plataforma única e, dessa forma, acabam tendo que realizar buscas em diversas fontes.
 
 ## Solução
@@ -52,10 +52,10 @@ Com base em pesquisas realizadas por meio de formulários, conseguimos traçar o
 
 ## Autoras
 
-Ana Freitas | [GitHub - Ana](https://github.com/anafreitas-br)
-Dunia Ghazzaoui | [GitHub - Dunia](https://github.com/dunia07)
-Karina Santos | [GitHub - Karina](https://github.com/karinaFs)
-Luciana Pereira | [GitHub - Luciana](https://github.com/Lu-Pereira)
-Mayara Oliveira | [GitHub - Mayara](https://github.com/apretamayara)
-Sara Silva | [GitHub - Sara](https://github.com/silvassara)
-Thaís Alencar| [GitHub - Thaís](https://github.com/alencartha) 
+[Ana Freitas](https://github.com/anafreitas-br)
+[Dunia Ghazzaoui](https://github.com/dunia07)
+[Karina Santos](https://github.com/karinaFS)
+[Luciana Pereira](https://github.com/Lu-Pereira)
+[Mayara Oliveira](https://github.com/apretamayara)
+[Sara Silva](https://github.com/silvassara)
+[Thaís Alencar](https://github.com/alencartha) 
