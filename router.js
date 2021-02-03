@@ -1,4 +1,3 @@
-// Este é seu ponto de entrada da sua aplicação
 import { Home } from './Pages/Home/index.js';
 import { Search } from './Pages/Search/index.js';
 import { onNavigate } from './utils/history.js';
@@ -7,7 +6,7 @@ const routeRender = () => {
   const rootDiv = document.getElementById('root');
   const routes = {
     '/' : Home,
-    '/search': Search,
+    '/search': Search
 
   };
 
@@ -31,5 +30,5 @@ window.addEventListener('load', () => {
       onNavigate('/search')
     });
 
-    routeRender();
+     routeRender();
   });
