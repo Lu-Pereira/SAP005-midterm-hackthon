@@ -40,8 +40,8 @@ btnSearch.addEventListener("click", () => {
                     cleanInput();
                 })
         })
-        .catch(e => console.log("Deu erro" + e.message))
-})
+        .catch(e => console.log("Deu erro" + e.message));
+});
 
 function showSearch() {
     const userDate = inputDate.value;
@@ -65,11 +65,11 @@ function getLives() {
             response.json()
                 .then(data => {
                     showData(data)
-                    cleanInput();
+                    // cleanInput();
                 })
         })
-        .catch(e => console.log("Deu erro" + e.message))
-}
+        .catch(e => console.log("Deu erro" + e.message));
+};
 
 window.addEventListener("load", getLives);
 logo.addEventListener("click", getLives);
