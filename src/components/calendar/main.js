@@ -13,11 +13,10 @@ $(function() {
     });
 });
 
-const date = document.getElementById("input-date")
+const date = document.getElementById("input-date");
 const btnDate = document.getElementById("btn-date");
-
-btnDate.addEventListener("click",valueInputDate)
+btnDate.addEventListener("click",valueInputDate);
 
 function valueInputDate(){
-    console.log(date.value)
+    console.log(date.value);
 }
