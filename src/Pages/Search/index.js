@@ -1,29 +1,34 @@
 const showData = (result) => {
-    let teste = "";
+    let content = "";
     for (let indice of result) {
-        teste += `
-
-        <div class="mostrar">
-           <img class="img" src="${indice.image}">
+        content += `
+        <div class="show-content">
+            <div class="image">
+                <img class="img" src="${indice.image}"/>
+            </div>
             <div class="info">
-              <h2 class="name">${indice.name}<h2>
-              <p>${indice.title}</p>
-              <p>${indice.date}</p> 
-              <p>${indice.hour}</p>
-              <a href="${indice.url}">Acesse o link</a>
+                <h2 class="name">${indice.name}<h2>
+                <p>${indice.title}</p>
+                <p>${indice.date}</p> 
+                <p>${indice.hour}</p>
+                <a href="${indice.url}">Acesse o link</a>
             </div>
         </div>
-
-        `
-    }
-
-    return document.getElementById("search-live").innerHTML = teste
-
-}
-
+        `;
+    };
+    return document.getElementById("search-live").innerHTML = content;
+};
 
 const inputText = document.getElementById("input-text");
 const btnSearch = document.querySelector("#btn-search");
+const inputDate = document.getElementById("input-date");
+const btnDate = document.getElementById("btn-date");
+const logo = document.getElementById("logo");
+
+const cleanInput = () => {
+    inputDate.value = "";
+    inputText.value = "";
+}
 
 btnSearch.addEventListener("click", () => {
     const userInput = inputText.value;
@@ -32,62 +37,39 @@ btnSearch.addEventListener("click", () => {
             response.json()
                 .then(data => {
                     showData(data)
+                    cleanInput();
                 })
         })
         .catch(e => console.log("Deu erro" + e.message))
 })
 
-btnSearch.addEventListener("click", () => {
-    const userInput = inputText.value;
-    fetch(`https://6019cf737db53900178348ec.mockapi.io/${userInput}`)
-        .then(response => {
-            response.json()
-                .then(data => {
-                    showData(data)
-                })
-        })
-        .catch(e => console.log("Deu erro" + e.message))
-})
-
-const inputDate = document.getElementById("input-date");
-const btnDate = document.getElementById("btn-date");
-
-btnDate.addEventListener("click", () => {
+function showSearch() {
     const userDate = inputDate.value;
-    fetch(`https://6019cf737db53900178348ec.mockapi.io/${userDate}`)
+    const userInput = inputText.value;
+    fetch(`https://6019cf737db53900178348ec.mockapi.io/${userDate || userInput}`)
         .then(response => {
             response.json()
                 .then(data => {
                     showData(data)
+                    cleanInput();
                 })
         })
         .catch(e => console.log("Deu erro" + e.message))
-})
+}
+btnSearch.addEventListener("click", showSearch);
+btnDate.addEventListener("click", showSearch);
 
-window.addEventListener("load", () => {
-
+function getLives() {
     fetch(`https://6019da707db5390017834974.mockapi.io/artistas`)
         .then(response => {
             response.json()
                 .then(data => {
                     showData(data)
+                    cleanInput();
                 })
         })
         .catch(e => console.log("Deu erro" + e.message))
+}
 
-})
-
-const logo = document.getElementById("logo");
-
-logo.addEventListener("click", () => {
-
-    fetch(`https://6019da707db5390017834974.mockapi.io/artistas`)
-        .then(response => {
-            response.json()
-                .then(data => {
-                    showData(data)
-                })
-        })
-        .catch(e => console.log("Deu erro" + e.message))
-
-})
+window.addEventListener("load", getLives);
+logo.addEventListener("click", getLives);
