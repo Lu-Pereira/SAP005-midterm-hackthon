@@ -151,6 +151,7 @@ header{
 	justify-content: space-around;
     align-content: stretch;
     margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 #input-date{
@@ -198,7 +199,6 @@ footer{
     align-content: center;
     background-color: #0f0e0e;
     padding: 1em;
-    position:absolute;
     bottom:0;
     width:100%;
 }
@@ -208,7 +208,6 @@ footer >img{
     cursor: pointer;
 }
 
-
 footer>p{
     font-weight: 100;
     font-size: 8pt;
@@ -217,4 +216,42 @@ footer>p{
     letter-spacing: .2em;
 }
 
+.hidden {
+    display: none;
+    visibility: hidden;
+}
 
+.img{
+    max-width: 9em;
+}
+
+.mostrar{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 2em;
+    margin-left: 1em;
+}
+
+.info{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+    align-content: flex-start;
+    margin-left: 1em;
+}
+
+.name{
+    font-size: 14pt;
+}
+
+.class > p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100
+}
+
+.text-live{
+    margin-bottom: 2em;
+    font-size: 16pt;
+}
